@@ -1,0 +1,218 @@
+/* Basic settings for the whole website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Header section */
+header {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #102b4c;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8ed8ff;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+main h2 {
+    color: #173b67;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 18px;
+}
+
+/* Learn More button */
+.button {
+    display: inline-block;
+    background-color: #1769aa;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #102b4c;
+}
+
+/* Footer section */
+footer {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile-friendly design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    main {
+        margin: 20px 12px;
+        padding: 25px 16px;
+    }
+
+    main h2 {
+        font-size: 23px;
+    }
+}
+/* Professional improvements */
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+main h3 {
+    color: #1769aa;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #1769aa;
+    color: white;
+}
+
+.button {
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+a:focus-visible {
+    outline: 3px solid #f0b429;
+    outline-offset: 3px;
+}
+
+/* Better layout on mobile phones */
+@media (max-width: 600px) {
+    header {
+        padding: 30px 12px;
+    }
+
+    header h1 {
+        font-size: 26px;
+        overflow-wrap: anywhere;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav {
+        gap: 4px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        margin: 2px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    main {
+        width: auto;
+        margin: 18px 10px;
+        padding: 22px 15px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 15px;
+    }
+
+    .button {
+        max-width: 100%;
+        padding: 12px 16px;
+    }
+
+    footer {
+        padding: 18px 10px;
+        font-size: 14px;
+    }
+}
